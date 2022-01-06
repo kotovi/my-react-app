@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name ="Ололошенька"
+  const ololoHeader = <h1>Не пей, {name}!</h1>
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        ololoHeader
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,0 +1,97 @@
+.Footer {
+    text-align: center;
+    line-height: 0.9em;
+  }
+  
+  .Footer-content-row {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Footer-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Footer-logo {
+      animation: Footer-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Footer {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+
+  .Footer-h3 {
+    align-items: center;
+    justify-content: center;
+    font-size: calc(3px + 2vmin);
+    color: white;
+  }
+
+  .Footer-link {
+    font-size: calc(3px + 2vmin);
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .Footer-link:hover{
+    font-size: calc(3px + 2vmin);
+    color: #61dafb;
+    text-decoration: underline;
+   
+  }
+
+  .Footer-copyright  {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1px + 2vmin);
+    color: white;
+    text-decoration: none;
+  }
+
+  .Footer-copyright :hover {
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    font-size: calc(1px + 2vmin);
+    color: #61dafb;
+    text-decoration: underline;
+  }
+
+  .Footer-hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .Footer-h {
+    align-items: center;
+    justify-content: center;
+    font-size: calc(8px + 2vmin);
+    color: white;
+  }
+
+  
+  
+
+  
+  @keyframes Footer-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
